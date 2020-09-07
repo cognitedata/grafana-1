@@ -34,7 +34,7 @@ export interface State {
 const themes: SelectableValue[] = [
   { value: '', label: 'Default' },
   { value: 'dark', label: 'Dark' },
-  { value: 'light', label: 'Light' },
+  { value: 'light', label: 'Blue' },
 ];
 
 export class SharedPreferences extends PureComponent<Props, State> {

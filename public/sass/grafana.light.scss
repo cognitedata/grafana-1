@@ -1,3 +1,13 @@
 @import 'variables.generated';
 @import 'variables.light.generated';
 @import 'grafana';
+
+.page-dashboard .main-view {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.panel-title-text {
+  padding: 16px;
+  text-shadow: 0 0 5px #fff, 0 0 7px #fff, 0 0 10px #fff, 0 0 15px #9fa7b3, 0 0 20px #9fa7b3;
+}

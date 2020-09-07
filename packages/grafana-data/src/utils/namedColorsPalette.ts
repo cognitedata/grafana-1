@@ -124,7 +124,7 @@ export const getColorForTheme = (color: ColorDefinition, theme?: GrafanaThemeTyp
 const buildNamedColorsPalette = () => {
   const palette = new Map<Hue, ColorDefinition[]>();
 
-  const BasicGreen = buildColorDefinition('green', 'green', ['#56A64B', '#73BF69'], true);
+  const BasicGreen = buildColorDefinition('green', 'green', ['#0fdbb3', '#2ee5c1'], true);
   const DarkGreen = buildColorDefinition('green', 'dark-green', ['#19730E', '#37872D']);
   const SemiDarkGreen = buildColorDefinition('green', 'semi-dark-green', ['#37872D', '#56A64B']);
   const LightGreen = buildColorDefinition('green', 'light-green', ['#73BF69', '#96D98D']);
@@ -136,10 +136,10 @@ const buildNamedColorsPalette = () => {
   const LightYellow = buildColorDefinition('yellow', 'light-yellow', ['#FADE2A', '#FFEE52']);
   const SuperLightYellow = buildColorDefinition('yellow', 'super-light-yellow', ['#FFEE52', '#FFF899']);
 
-  const BasicRed = buildColorDefinition('red', 'red', ['#E02F44', '#F2495C'], true);
+  const BasicRed = buildColorDefinition('red', 'red', ['#c53158', '#e05177'], true);
   const DarkRed = buildColorDefinition('red', 'dark-red', ['#AD0317', '#C4162A']);
-  const SemiDarkRed = buildColorDefinition('red', 'semi-dark-red', ['#C4162A', '#E02F44']);
-  const LightRed = buildColorDefinition('red', 'light-red', ['#F2495C', '#FF7383']);
+  const SemiDarkRed = buildColorDefinition('red', 'semi-dark-red', ['#C4162A', '#c53158']);
+  const LightRed = buildColorDefinition('red', 'light-red', ['#e05177', '#FF7383']);
   const SuperLightRed = buildColorDefinition('red', 'super-light-red', ['#FF7383', '#FFA6B0']);
 
   const BasicBlue = buildColorDefinition('blue', 'blue', ['#3274D9', '#5794F2'], true);
