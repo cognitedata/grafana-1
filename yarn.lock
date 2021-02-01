@@ -18662,9 +18662,9 @@ neo-async@^2.5.0, neo-async@^2.6.0, neo-async@^2.6.1:
   integrity sha512-iyam8fBuCUpWeKPGpaNMetEocMt364qkCsfL9JuhjXX6dRnguRVOfk2GZaDpPjcOKiiXCPINZC1GczQ7iTq3Zw==
 
 nested-object-assign@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/nested-object-assign/-/nested-object-assign-1.0.3.tgz#5aca69390d9affe5a612152b5f0843ae399ac597"
-  integrity sha512-kgq1CuvLyUcbcIuTiCA93cQ2IJFSlRwXcN+hLcb2qLJwC2qrePHGZZa7IipyWqaWF6tQjdax2pQnVxdq19Zzwg==
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/nested-object-assign/-/nested-object-assign-1.0.4.tgz#c9db56078eb6043960fdb6ba918a5122a06ccac4"
+  integrity sha512-FlZ7oN9ICt+fbcJ4ag2IsALIcalfE/E16ttdSA8peBiHJI+oEKdOcafqDnUbeUe5NwWGn/m9zZGO9qrAGzfesg==
 
 next-tick@^1.0.0:
   version "1.0.0"
@@ -19632,6 +19632,11 @@ pako@~1.0.5:
   version "1.0.10"
   resolved "https://registry.yarnpkg.com/pako/-/pako-1.0.10.tgz#4328badb5086a426aa90f541977d4955da5c9732"
   integrity sha512-0DTvPVU3ed8+HNXOu5Bs+o//Mbdj9VNQMUOe9oKCwh8l0GNwpTDMKCWbRjgtD291AWnkAgkqA/LOnQS8AmS1tw==
+
+papaparse@4.6.3:
+  version "4.6.3"
+  resolved "https://registry.yarnpkg.com/papaparse/-/papaparse-4.6.3.tgz#742e5eaaa97fa6c7e1358d2934d8f18f44aee781"
+  integrity sha512-LRq7BrHC2kHPBYSD50aKuw/B/dGcg29omyJbKWY3KsYUZU69RKwaBHu13jGmCYBtOc4odsLCrFyk6imfyNubJQ==
 
 papaparse@5.3.0:
   version "5.3.0"
